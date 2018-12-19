@@ -69,7 +69,7 @@
    {%
     \RequirePackage[british]{babel}
     \RequirePackage[babel]{csquotes}
-    \RequirePackage[bibstyle=numeric-cern,citestyle=numeric-comp,block=ragged]{biblatex}
+    \RequirePackage[bibstyle=numeric,citestyle=numeric-comp,block=ragged]{biblatex}
     \AtBeginDocument{\renewcommand{\figurename}{Fig.}%
                      \renewcommand{\bibname}{References}%
                      \defbibheading{bibliography}{\relax}%
@@ -180,7 +180,7 @@
 \renewcommand{\rmdefault}{ptm}
 
 % Display dates using the UK English format
-\usepackage[UKenglish]{babel}
+%\usepackage[UKenglish]{babel}
 \usepackage[UKenglish,cleanlook]{isodate}
 
 \endinput

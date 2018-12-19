@@ -1,5 +1,9 @@
-\documentclass{cernrep}
+\documentclass[biblatex]{cernrep}
 \graphicspath{{./}{figs/}}
+
+
+%\usepackage{biblatex}
+\addbibresource{bibliography.bib}
 
 \begin{document}
 
@@ -16,7 +20,32 @@ The main results from CTF3 are listed.
 
 \maketitle
 
-\include{Introduction.tex}
+\input{Introduction.tex}
+
+
+\section{Existing Overview Papers}
+
+\begin{itemize}
+\item Final Results From the Clic Test Facility (CTF3)
+http://inspirehep.net/record/1626362
+
+\item Lessons from CTF3
+http://inspirehep.net/record/1664799
+\end{itemize}
+
+
+\input{Injector.tex}
+
+\input{FullyLoadedAccel.tex}
+
+\input{Recombination.tex}
+
+\input{DecelerationAndPowerProd.tex}
+
+\input{TwoBeamAccel.tex}
+
+
+
 
 
 
